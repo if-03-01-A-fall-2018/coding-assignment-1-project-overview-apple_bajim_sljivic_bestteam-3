@@ -1,0 +1,81 @@
+html{
+    font-family: sans-serif;
+    color: #fff;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    list-style-type: circle;
+    margin: 0; 
+    padding: 0;
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    background: #46494f;
+    overflow: auto;
+    top:0;
+}
+
+#background{
+    background-color: #000;
+    margin-left: 15%;
+}
+
+
+ul > li > a{
+    display: block;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+ul > li > a >img{
+    padding: 0px;
+}
+
+nav > ul > li > a:hover{
+    color:#7b818c;
+}
+
+#text{
+    margin-left: 15%;
+    padding-left: 1%;
+    padding-top: 10px;
+    background-color: #161616;
+    padding-bottom: 10px;
+}
+
+#logo{
+    height: 18px;
+    width: 15px;
+}
+
+h2{
+    font-size: 15px;
+}
+
+#firstpic{
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+#AppleTitle{
+    text-align: center;
+    font-size: 100px;
+    padding-top: 100px;
+    margin-top: 0px;   
+}
+
+hr{
+    height: 1%;
+    background-color: #fff;
+    margin-right: 100px;
+}
+
+#padding{
+    padding: 6px 16px;   
+}
